@@ -1,0 +1,119 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+body{
+    font-family: montserrat;
+    height:50px;
+    background-image: url(../img/kLYW7d1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+.nav{
+    background: rgb(99, 238, 208);
+    
+}
+label.logo{
+    color:black;
+    font-size: 35px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight:bold;
+}
+/* s */
+a.active,a:hover{
+    background:white;
+    transition: .5s ;
+}
+.checkbtn{
+    font-size:30px;
+    color:white;
+    float:right;
+    line-height: 80px;
+    margin-right:40px;
+    cursor:pointer;
+    display:none;
+}
+#check{
+    display: none;
+}
+.demo{
+    width:750px;
+    padding:30px 30px 50px;
+    box-sizing: border-box;
+    margin:auto;
+    margin-top: 100px;
+    font-size: 20px;
+    color:black;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    border-radius: 6px;
+    text-align: justify;
+    background: rgba(230, 227, 227,0.6);
+    align:center;
+    
+}
+h1{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer-bottom{
+    background:rgb(99, 238, 208);
+    color:black;
+    /* height:80px; */
+    width:100%;
+    text-align:center;
+    position:relative;
+    bottom:0;
+    left:0px;
+    /* padding-top: 10px; */
+}
+.donate {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    width: 200px;
+    font-size:xx-large;
+    background-color: rgb(236, 245, 253,1.0);
+    text-decoration: none;
+    color: rgb(46, 12, 78);
+    /* color: white; */
+    border-radius: 70px;
+    box-shadow: 0px 0px 20px 1px rgb(0,0,0,5);
+    align:center;
+  }
+
+  .donate:hover {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    width: 200px;
+    font-size:xx-large;
+    color: white;
+    backdrop-filter: blur(5px);
+    background-color: rgb(236, 245, 253,0.1);
+    text-decoration: none;
+    /* color: initial; */
+    border-radius: 70px;
+  }
+  
+.quote{
+      font-size: xx-large;
+      font-family: cursive;
+      text-decoration: solid;
+      text-align: center;
+      padding-right: 10px;
+      padding-top: 30px;
+      font-weight: bolder;
+      font-size: 40px;
+  }
